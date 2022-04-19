@@ -79,3 +79,7 @@ function deleteNote(id, element) {
   saveNotes(notes);
   container.removeChild(element);
 }
+function help() {
+  var help = document.getElementById("helpFun");
+  help.classList.toggle("show");
+}
